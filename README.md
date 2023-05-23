@@ -27,9 +27,9 @@ This program provides a simple but effective simulation of the EPL standings bas
 
 ## Time Complexity
 
-The time complexity of this program is  O(V<sup>2</sup>), where V is the number of teams and E is the total number of matches played. This complexity comes from the following steps:
+The time complexity of this program is  `O(V<sup>2</sup>)`, where V is the number of teams and E is the total number of matches played. This complexity comes from the following steps:
 
-* Reading the input from file: O(V<sup>2</sup>)
+* Reading the input from file: `O(V<sup>2</sup>)`
 * BFS traversal of the graph: `O(V + E)`
 * Sorting of teams based on their statistics: `O(V * log(V))`
 
